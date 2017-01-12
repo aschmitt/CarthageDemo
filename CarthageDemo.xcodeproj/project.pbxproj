@@ -15,6 +15,8 @@
 		458B8E271E26A3FC0050E25E /* CarthageDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458B8E261E26A3FC0050E25E /* CarthageDemoUITests.swift */; };
 		458B8E341E26A5E30050E25E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458B8E331E26A5E30050E25E /* Alamofire.framework */; };
 		458B8E351E26A60D0050E25E /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 458B8E331E26A5E30050E25E /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4DFF6E0DB2C3B4BBBF4D4A06 /* Pods_CarthageDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2B923ED27EE56F03391A7C /* Pods_CarthageDemo.framework */; };
+		FD89FE532087BC8C8953D1A0 /* Pods_CarthageDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E52F42C572E62111E42901 /* Pods_CarthageDemoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		122AEABD6EAA1D4F460416EC /* Pods-CarthageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarthageDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarthageDemo/Pods-CarthageDemo.release.xcconfig"; sourceTree = "<group>"; };
 		458B8E0E1E26A3FC0050E25E /* CarthageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarthageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		458B8E111E26A3FC0050E25E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		458B8E131E26A3FC0050E25E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +55,11 @@
 		458B8E261E26A3FC0050E25E /* CarthageDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarthageDemoUITests.swift; sourceTree = "<group>"; };
 		458B8E281E26A3FC0050E25E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		458B8E331E26A5E30050E25E /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		4D24D7D4A924604212E056CF /* Pods-CarthageDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarthageDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarthageDemoUITests/Pods-CarthageDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6741696A19E88CCB52B05C19 /* Pods-CarthageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarthageDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarthageDemo/Pods-CarthageDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BC2B923ED27EE56F03391A7C /* Pods_CarthageDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarthageDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E52F42C572E62111E42901 /* Pods_CarthageDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarthageDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2267B32DAB56143431282A /* Pods-CarthageDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarthageDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarthageDemoUITests/Pods-CarthageDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				458B8E341E26A5E30050E25E /* Alamofire.framework in Frameworks */,
+				4DFF6E0DB2C3B4BBBF4D4A06 /* Pods_CarthageDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD89FE532087BC8C8953D1A0 /* Pods_CarthageDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +90,7 @@
 				458B8E251E26A3FC0050E25E /* CarthageDemoUITests */,
 				458B8E0F1E26A3FC0050E25E /* Products */,
 				458B8E321E26A5E30050E25E /* Frameworks */,
+				A1936D829E0609A8C94BDA6E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,8 +129,21 @@
 			isa = PBXGroup;
 			children = (
 				458B8E331E26A5E30050E25E /* Alamofire.framework */,
+				BC2B923ED27EE56F03391A7C /* Pods_CarthageDemo.framework */,
+				D7E52F42C572E62111E42901 /* Pods_CarthageDemoUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1936D829E0609A8C94BDA6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6741696A19E88CCB52B05C19 /* Pods-CarthageDemo.debug.xcconfig */,
+				122AEABD6EAA1D4F460416EC /* Pods-CarthageDemo.release.xcconfig */,
+				4D24D7D4A924604212E056CF /* Pods-CarthageDemoUITests.debug.xcconfig */,
+				DF2267B32DAB56143431282A /* Pods-CarthageDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,10 +153,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 458B8E2B1E26A3FC0050E25E /* Build configuration list for PBXNativeTarget "CarthageDemo" */;
 			buildPhases = (
+				F7CC012897FA0A2D7FE85376 /* [CP] Check Pods Manifest.lock */,
 				458B8E0A1E26A3FC0050E25E /* Sources */,
 				458B8E0B1E26A3FC0050E25E /* Frameworks */,
 				458B8E0C1E26A3FC0050E25E /* Resources */,
 				458B8E311E26A5200050E25E /* CopyFiles */,
+				209BAE46F70FBA996EB01264 /* [CP] Embed Pods Frameworks */,
+				DF6BECD301297B177F8ACDD3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -147,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 458B8E2E1E26A3FC0050E25E /* Build configuration list for PBXNativeTarget "CarthageDemoUITests" */;
 			buildPhases = (
+				98C3BC59E0759A7EEB5B5800 /* [CP] Check Pods Manifest.lock */,
 				458B8E1E1E26A3FC0050E25E /* Sources */,
 				458B8E1F1E26A3FC0050E25E /* Frameworks */,
 				458B8E201E26A3FC0050E25E /* Resources */,
+				D234C395E0083103A49E6266 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -220,6 +249,84 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		209BAE46F70FBA996EB01264 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarthageDemo/Pods-CarthageDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98C3BC59E0759A7EEB5B5800 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D234C395E0083103A49E6266 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarthageDemoUITests/Pods-CarthageDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF6BECD301297B177F8ACDD3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarthageDemo/Pods-CarthageDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7CC012897FA0A2D7FE85376 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		458B8E0A1E26A3FC0050E25E /* Sources */ = {
@@ -364,6 +471,7 @@
 		};
 		458B8E2C1E26A3FC0050E25E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6741696A19E88CCB52B05C19 /* Pods-CarthageDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -380,6 +488,7 @@
 		};
 		458B8E2D1E26A3FC0050E25E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 122AEABD6EAA1D4F460416EC /* Pods-CarthageDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -396,6 +505,7 @@
 		};
 		458B8E2F1E26A3FC0050E25E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D24D7D4A924604212E056CF /* Pods-CarthageDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = CarthageDemoUITests/Info.plist;
@@ -409,6 +519,7 @@
 		};
 		458B8E301E26A3FC0050E25E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF2267B32DAB56143431282A /* Pods-CarthageDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = CarthageDemoUITests/Info.plist;

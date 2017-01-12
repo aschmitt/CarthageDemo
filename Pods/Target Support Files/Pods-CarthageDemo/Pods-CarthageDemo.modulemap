@@ -1,0 +1,6 @@
+framework module Pods_CarthageDemo {
+  umbrella header "Pods-CarthageDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
