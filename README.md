@@ -1,2 +1,2 @@
 # CarthageDemo
-Test with carhage 
+Test with carhage and cocoapods 
