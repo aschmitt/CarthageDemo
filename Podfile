@@ -10,7 +10,7 @@ target 'CarthageDemo' do
   target 'CarthageDemoUITests' do
     inherit! :search_paths
     # Pods for testing
-    pod 'SwiftyJSON', '~> 2.3'
+    pod 'SwiftyJSON'
   end
 
 end
