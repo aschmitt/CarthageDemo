@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     }
 
     func getData() {
-        let url = "https://secure.apps.scout24.com/ff5a68b355fd70a45ec6/mobilehub/as24/searchparameter/1.4/de-de/json/type=C"
+        let url = "https://raw.githubusercontent.com/aschmitt/jsonTest/master/test.json"
         Alamofire.request(url).responseJSON { response in
             print(response.request)  // original URL request
             print(response.response) // HTTP URL response
